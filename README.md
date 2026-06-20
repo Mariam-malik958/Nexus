@@ -1,15 +1,25 @@
-# Nexus Platform
+## **Nexus – Investor & Entrepreneur Collaboration Platform**
 
-This repository contains all the tasks completed during my Full Stack Development Internship at Nexus Platform.
+A full-stack web platform connecting investors and entrepreneurs through smart collaboration tools including meeting scheduling, video calling, document management, and secure payments.
 
-## **About the Project**
-Nexus Platform is a full-stack web application built to practice and demonstrate core MERN stack concepts. The project focuses on building scalable APIs, authentication, and a responsive frontend.
+## ** Project Overview **##
+Nexus is a collaboration platform designed to bridge the gap between investors and entrepreneurs. This repository contains both the frontend and backend integration of the platform, built as part of a 3-week Full Stack Development Internship.
 
 ## **Tech Stack**
-**Frontend**: React.js, Tailwind CSS, JavaScript  
-**Backend**: Node.js, Expre8ss.js  
-**Database**: MongoDB  
-**Tools**: Git, GitHub, Postman
+Frontend
+React.js
+Vercel (Deployment)
+Backend
+Node.js + Express.js
+MongoDB / PostgreSQL
+Socket.IO (WebRTC Signaling)
+Render / Heroku / AWS (Deployment)
+Integrations
+Auth: JWT + bcrypt + 2FA (Nodemailer)
+Video: WebRTC + Socket.IO
+Documents: Multer + AWS S3 + React PDF Viewer
+Payments: Stripe / PayPal Sandbox
+API Docs: Swagger / Postman
 
 ## **Key Features**
 1. User Authentication: Signup, Login with JWT
@@ -19,19 +29,52 @@ Nexus Platform is a full-stack web application built to practice and demonstrate
 5. Error handling + validation
 
 
-## **Setup & Run Locally*
- 
-   ```bash
-1- Frontend :
+##  project structrue 
 
-## **Frontend Setup**
-1. Go to Frontend folder: `cd Frontend`
-2. Install dependencies: `npm install`
-3. npm run dev
+nexus/
+├── frontend/          # React.js frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── services/
+│   └── public/
+├── backend/           # Node.js + Express backend
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── middleware/
+│   └── config/
+└── README.md
+
+## Clone the repository ##
+git clone https://github.com/Mariam_malik958/nexus.git
+cd nexus
+
+##Backup Setup ##
+cd backend
+npm install
+npm run dev
+
+## Frontend setup ##
+cd frontend
+npm install
+npm start
+
+## Environment Variables ##
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+AWS_ACCESS_KEY=your_aws_key
+AWS_SECRET_KEY=your_aws_secret
+S3_BUCKET_NAME=your_bucket
+STRIPE_SECRET_KEY=your_stripe_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+
+## License##
+
+This project was developed as part of the Full Stack Development Internship at Developer Hub Corporation.
 
 
-2- Backend
-## **Backend Setup*
-   cd server
-   npm install
-   npm start 
+## Developed by #$
+Mariam malik 
