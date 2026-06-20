@@ -30,7 +30,8 @@ Nexus Platform is a full-stack web application built to practice and demonstrate
 3. npm run dev
 
 
-2- Backend 
+2- Backend
+## **Backend Setup*
    cd server
    npm install
-   npm start
+   npm start 
