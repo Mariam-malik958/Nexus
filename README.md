@@ -20,12 +20,15 @@ Nexus Platform is a full-stack web application built to practice and demonstrate
 
 
 ## **Setup & Run Locally*
-1-  Backend: 
+1-  Backend
    ```bash
    cd server
    npm install
    npm start
-## 2- Frontend 
-   cd client  
-   npm install
-   npm run dev
+
+2- Frontend :
+
+## **Frontend Setup**
+1. Go to client folder: `cd client`
+2. Install dependencies: `npm install`
+3. Create `.env` file:
