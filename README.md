@@ -3,9 +3,11 @@
 A full-stack web platform connecting investors and entrepreneurs through smart collaboration tools including meeting scheduling, video calling, document management, and secure payments.
 
 ##  Project Overview ##
+
 Nexus is a collaboration platform designed to bridge the gap between investors and entrepreneurs. This repository contains both the frontend and backend integration of the platform, built as part of a 3-week Full Stack Development Internship.
 
 ## Tech Stack ##
+
 Frontend
 React.js
 Vercel (Deployment)
@@ -22,6 +24,7 @@ Payments: Stripe / PayPal Sandbox
 API Docs: Swagger / Postman
 
 ## Key Features ##
+
 1. User Authentication: Signup, Login with JWT
 2. CRUD Operations for main entities
 3. RESTful API design
@@ -29,6 +32,7 @@ API Docs: Swagger / Postman
 5. Error handling + validation
 
 ## Clone the repository ##
+
 git clone https://github.com/Mariam_malik958/nexus.git
 
 ## Backup Setup ##
@@ -36,6 +40,7 @@ git clone https://github.com/Mariam_malik958/nexus.git
 cd backend
 
 npm install
+
 npm run dev
 
 ## Frontend setup ##
@@ -43,9 +48,11 @@ npm run dev
 cd frontend
 
 npm install
-npm start
+
+npm run dev 
 
 ## Environment Variables ##
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
