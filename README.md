@@ -35,21 +35,17 @@ API Docs: Swagger / Postman
 
 git clone https://github.com/Mariam_malik958/nexus.git
 
-## Backup Setup ##
+#Backend Setup:
 
 cd backend
-
 npm install
-
 npm run dev
 
-## Frontend setup ##
+#Frontend Setup:
 
 cd frontend
-
 npm install
-
-npm run dev 
+npm run dev
 
 ## Environment Variables ##
 
