@@ -30,15 +30,18 @@ API Docs: Swagger / Postman
 
 ## Clone the repository ##
 git clone https://github.com/Mariam_malik958/nexus.git
-cd nexus
 
-##Backup Setup ##
+## Backup Setup ##
+
 cd backend
+
 npm install
 npm run dev
 
 ## Frontend setup ##
+
 cd frontend
+
 npm install
 npm start
 
@@ -53,7 +56,7 @@ STRIPE_SECRET_KEY=your_stripe_key
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
 
-## License##
+## License
 
 This project was developed as part of the Full Stack Development Internship at Developer Hub Corporation.
 
