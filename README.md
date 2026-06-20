@@ -7,7 +7,7 @@ Nexus Platform is a full-stack web application built to practice and demonstrate
 
 ## **Tech Stack**
 **Frontend**: React.js, Tailwind CSS, JavaScript  
-**Backend**: Node.js, Express.js  
+**Backend**: Node.js, Expre8ss.js  
 **Database**: MongoDB  
 **Tools**: Git, GitHub, Postman
 
@@ -20,15 +20,17 @@ Nexus Platform is a full-stack web application built to practice and demonstrate
 
 
 ## **Setup & Run Locally*
-1-  Backend
+ 
    ```bash
+1- Frontend :
+
+## **Frontend Setup**
+1. Go to Frontend folder: `cd Frontend`
+2. Install dependencies: `npm install`
+3. npm run dev
+
+
+2- Backend 
    cd server
    npm install
    npm start
-
-2- Frontend :
-
-## **Frontend Setup**
-1. Go to client folder: `cd client`
-2. Install dependencies: `npm install`
-3. Create `.env` file:
